@@ -10,7 +10,6 @@ init → validate → plan → apply → verify (docker ps, browser) → state l
 ## Files
 - main.tf – Terraform configuration
 - logs-*.txt – execution logs for each step
-- screenshots/ – nginx page and docker ps
 
 ## What I learned
 Terraform is declarative, plan previews changes, state tracks real resources,
